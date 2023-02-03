@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default class Header extends Component {
   render() {
@@ -52,6 +53,18 @@ export default class Header extends Component {
         </nav>
         <div>
             <h1>Nick Misselbrook</h1>
+        </div>
+        <div>
+            <i className="fab fa-github"></i>
+            <p>GitHub</p>
+            <i class="fab fa-linkedin"></i>
+            <p>LinkedIn</p>
+            <i class="fas fa-envelope"></i>
+            <p>email</p>
+            <i class="fas fa-circle-phone"></i>
+            <p>Phone</p>
+            <i class="fas fa-file-lines"></i>
+            <p>Resume</p>
         </div>
       </header>
     )
