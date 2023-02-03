@@ -1,0 +1,25 @@
+header {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#nav {
+    color: #ffffff;
+}
+
+h1 {
+    color: #e04a0f;
+    text-indent: 20%;
+}
+
+#contacting li {
+    list-style-type: none;
+}
+
+#contacting li a {
+    color: #ffffff;
+}
+
+#contacting li a:hover {
+    color: #e04a0f;
+}
