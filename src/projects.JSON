@@ -1,25 +1,85 @@
 [
-    {
-        "id": 1,
-        "title": "README Generator",
-        "screenshot": "https://via.placeholder.com/600",
-        "deployed": "https://nickmbk.github.io/readme-generator",
-        "repo": "https://www.github.com/nickmbk/readme-generator",
-        "tech": [
-            "../src/images/icons/javascript.png",
-            "./src/images/icons/node.png"]
-    },
-    {
-        "id": 2,
-        "title": "Travel List",
-        "screenshot": "https://via.placeholder.com/600",
-        "deployed": "https://h-fikri.github.io/Travel-List-Jan2023",
-        "repo": "https://github.com/h-fikri/Travel-List-Jan2023",
-        "tech": [
-            "./images/icons/html5.png",
-            "./images/icons/css3.png",
-            "./images/icons/javascript.png",
-            "./images/icons/bootstrap.png",
-            "./images/icons/jquery.png"]
-    }
+  {
+    "id": 1,
+    "title": "README Generator",
+    "screenshot": "https://via.placeholder.com/600",
+    "deployed": "https://nickmbk.github.io/readme-generator",
+    "repo": "https://www.github.com/nickmbk/readme-generator",
+    "tech": [
+      "../src/images/icons/javascript.png",
+      "./src/images/icons/node.png"
+    ],
+    "description": "This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. "
+  },
+  {
+    "id": 2,
+    "title": "Travel List",
+    "screenshot": "https://via.placeholder.com/600",
+    "deployed": "https://h-fikri.github.io/Travel-List-Jan2023",
+    "repo": "https://github.com/h-fikri/Travel-List-Jan2023",
+    "tech": [
+      "./images/icons/html5.png",
+      "./images/icons/css3.png",
+      "./images/icons/javascript.png",
+      "./images/icons/bootstrap.png",
+      "./images/icons/jquery.png"
+    ],
+    "description": "This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. "
+  },
+  {
+    "id": 3,
+    "title": "Weather Dashboard",
+    "screenshot": "https://via.placeholder.com/600",
+    "deployed": "https://nickmbk.github.io/weather-dashboard",
+    "repo": "https://www.github.com/nickmbk/weather-dashboard",
+    "tech": [
+      "./images/icons/html5.png",
+      "./images/icons/css3.png",
+      "./images/icons/javascript.png",
+      "./images/icons/bootstrap.png",
+      "./images/icons/jquery.png"
+    ],
+    "description": "This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. "
+  },
+  {
+    "id": 4,
+    "title": "Work Day Scheduler",
+    "screenshot": "https://via.placeholder.com/600",
+    "deployed": "https://nickmbk.github.io/work-day-scheduler",
+    "repo": "https://www.github.com/nickmbk/work-day-scheduler",
+    "tech": [
+      "./images/icons/html5.png",
+      "./images/icons/css3.png",
+      "./images/icons/javascript.png",
+      "./images/icons/bootstrap.png",
+      "./images/icons/jquery.png"
+    ],
+    "description": "This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. "
+  },
+  {
+    "id": 5,
+    "title": "Code Quiz",
+    "screenshot": "https://via.placeholder.com/600",
+    "deployed": "https://nickmbk.github.io/code-quiz",
+    "repo": "https://www.github.com/nickmbk/code-quiz",
+    "tech": [
+      "./images/icons/html5.png",
+      "./images/icons/css3.png",
+      "./images/icons/javascript.png"
+    ],
+    "description": "This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. "
+  },
+  {
+    "id": 6,
+    "title": "Password Generator",
+    "screenshot": "https://via.placeholder.com/600",
+    "deployed": "https://nickmbk.github.io/password-generator",
+    "repo": "https://www.github.com/nickmbk/password-generator",
+    "tech": [
+      "./images/icons/html5.png",
+      "./images/icons/css3.png",
+      "./images/icons/javascript.png"
+    ],
+    "description": "This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. "
+  }
 ]

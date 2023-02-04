@@ -42,7 +42,7 @@ export default class ProjectGallery extends Component {
                     </div>
                     <div className="d-flex flex-column col-12 col-md-6 col-lg-8">
                         <div className="col-12">
-                            <p>This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. 
+                            <p>{projects[this.state.projectCounter].description}
                             </p>
                         </div>
                         <div className="d-flex flex-row justify-content-evenly text-center">
@@ -74,48 +74,7 @@ export default class ProjectGallery extends Component {
                 <button id="left" onClick={this.handleLeft}>
                     Left
                 </button>
-            </div>
-            {/* <div className="row d-flex">
-                <div className="row">
-                    <div className="col-12 col-md-6">
-                        <div className="row">
-                            <div className="col-12">
-                                {projects[0].title}
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-12">
-                                <div className="col-6">
-                                    <a href={projects[0].deployed}>
-                                        <i class="fas fa-globe"></i>
-                                    </a>
-                                </div>
-                                <div className="col-6">
-                                    <a href={projects[0].repo}>
-                                        <i className="fab fa-github"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <p>tech</p>
-                        </div>
-                    </div>
-                    <div className="col-12 col-md-6">
-                        <img className="d-inline-block" src={projects[0].screenshot} alt={projects[0].title} />
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-12">
-                        <p>This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. 
-                        </p>
-                    </div>
-                </div>
-            </div> */}
-            
-            
-            
-            
+            </div>           
         </div>
       </section>
     )
