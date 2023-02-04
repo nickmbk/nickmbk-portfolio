@@ -1,0 +1,4 @@
+h2 {
+    color: var(--second-heading-color);
+    background-color: var(--bg-color);
+}

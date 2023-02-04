@@ -1,15 +1,10 @@
 header {
-    background-color: #000000;
-    color: #ffffff;
-}
-
-#nav {
-    color: #ffffff;
+    background-color: var(--bg-color);
 }
 
 h1 {
     /* color: #e04a0f; */
-    color: #D56300;
+    color: var(--heading-color);
     text-indent: 20%;
 }
 
@@ -18,10 +13,10 @@ h1 {
 }
 
 #contacting li a {
-    color: #ffffff;
+    color: var(--anchor-color);
 }
 
 #contacting li a:hover {
     /* color: #e04a0f; */
-    color: #D56300;
+    color: var(--heading-color);
 }
