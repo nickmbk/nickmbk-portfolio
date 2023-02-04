@@ -6,8 +6,8 @@
         "deployed": "https://nickmbk.github.io/readme-generator",
         "repo": "https://www.github.com/nickmbk/readme-generator",
         "tech": [
-            "./images/icons/javascript.svg",
-            "./src/images/icons/node.svg"]
+            "../src/images/icons/javascript.png",
+            "./src/images/icons/node.png"]
     },
     {
         "id": 2,
@@ -16,10 +16,10 @@
         "deployed": "https://h-fikri.github.io/Travel-List-Jan2023",
         "repo": "https://github.com/h-fikri/Travel-List-Jan2023",
         "tech": [
-            "./images/icons/html5.svg",
-            "./images/icons/css3.svg",
-            "./images/icons/javascript.svg",
-            "./images/icons/bootstrap.svg",
-            "./images/icons/jquery.svg"]
+            "./images/icons/html5.png",
+            "./images/icons/css3.png",
+            "./images/icons/javascript.png",
+            "./images/icons/bootstrap.png",
+            "./images/icons/jquery.png"]
     }
 ]

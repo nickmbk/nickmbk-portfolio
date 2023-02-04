@@ -10,6 +10,22 @@ export default class ProjectGallery extends Component {
     projects
   }
 
+  handleLeft = () => {
+    if (this.state.projectCounter === 0) {
+        this.setState({projectCounter: this.state.projects.length - 1})
+    } else {
+        this.setState({projectCounter: this.state.projectCounter - 1})
+    }
+  }
+
+  handleRight = () => {
+    if (this.state.projectCounter === this.state.projects.length - 1) {
+        this.setState({projectCounter: 0})
+    } else {
+        this.setState({projectCounter: this.state.projectCounter + 1})
+    }
+  }
+
   render() {
 
     return (
@@ -50,6 +66,14 @@ export default class ProjectGallery extends Component {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                <button id="right" onClick={this.handleRight}>
+                    Right
+                </button>
+                <button id="left" onClick={this.handleLeft}>
+                    Left
+                </button>
             </div>
             {/* <div className="row d-flex">
                 <div className="row">
