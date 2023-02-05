@@ -1,9 +1,0 @@
-a {
-    color: var(--anchor-color);
-    text-decoration: none;
-}
-
-a:hover {
-    /* color: #e04a0f; */
-    color: var(--second-heading-color);
-}

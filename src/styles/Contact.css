@@ -2,11 +2,6 @@
     font-size: 50px;
 }
 
-#contact-p {
-    color: #ffffff;
-    font-size: 18px;
-}
-
 #submit-button {
     color: #000000;
     background-color: var(--anchor-color);
@@ -15,4 +10,13 @@
 
 #submit-button:hover {
     background-color: var(--second-heading-color);
+}
+
+p.contact {
+    color: var(--anchor-color);
+    text-decoration: none;
+}
+
+p.contact:hover {
+    color: var(--second-heading-color);
 }

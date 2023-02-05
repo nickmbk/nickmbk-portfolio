@@ -19,13 +19,13 @@ header {
     list-style-type: none;
 }
 
-#contacting li a {
+#contacting li a, p.links {
     color: var(--anchor-color);
     font-size: 20px;
     text-decoration: none;
 }
 
-#contacting li a:hover {
+#contacting li a:hover, p.links:hover {
     /* color: #e04a0f; */
     color: var(--heading-color);
 }

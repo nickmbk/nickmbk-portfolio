@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/Header.css";
 import "../styles/variables.css";
-import "../styles/styles.css";
 
 export default class Header extends Component {
   render() {
@@ -49,7 +48,7 @@ export default class Header extends Component {
                         isActive ? "nav-link active" : "nav-link"
                         }
                     >
-                        Project Gallery
+                        Projects
                     </NavLink>
                     </li>
                     <li className="nav-item mx-lg-5">
@@ -76,31 +75,31 @@ export default class Header extends Component {
                 <li>
                     <a href="https://www.github.com/nickmbk/">
                     <i id="github" className="fab fa-github"></i>
-                    <p className="d-none d-md-inline-block mx-3 my-0">GitHub</p>
+                    <p className="d-none d-md-inline-block mx-3 my-0 links">GitHub</p>
                     </a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/nickmbk/">
                     <i className="fab fa-linkedin"></i>
-                    <p className="d-none d-md-inline-block mx-3 my-0">LinkedIn</p>
+                    <p className="d-none d-md-inline-block mx-3 my-0 links">LinkedIn</p>
                     </a>
                 </li>
                 <li>
                     <a href="mailto:nick.mbk@hotmail.com">
                     <i className="fas fa-envelope"></i>
-                    <p className="d-none d-md-inline-block mx-3 my-0">Email</p>
+                    <p className="d-none d-md-inline-block mx-3 my-0 links">Email</p>
                     </a>
                 </li>
                 <li>
                     <a href="callto:+447769327480">
                     <i className="fas fa-phone"></i>
-                    <p className="d-none d-md-inline-block mx-3 my-0">Phone</p>
+                    <p className="d-none d-md-inline-block mx-3 my-0 links">Phone</p>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="https://drive.google.com/file/d/1zl7IKF_khVsQdno94YrvIWOGZ9TT1zt_/view?usp=sharing">
                     <i className="fas fa-file-pdf"></i>
-                    <p className="d-none d-md-inline-block mx-3 my-0">Resume</p>
+                    <p className="d-none d-md-inline-block mx-3 my-0 links">Resume</p>
                     </a>
                 </li>
                 </ul>

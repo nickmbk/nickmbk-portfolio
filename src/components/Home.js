@@ -12,15 +12,15 @@ export default class Home extends Component {
           {/* </div> */}
           <div className="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start m-0 p-0">
             {/* <div className="mx-2"> */}
-              <h1 mx-3>Nick Misselbrook</h1>
+              <h1 className="my-3 text-center text-sm-start">Nick Misselbrook</h1>
             {/* </div> */}
             {/* <div className=""> */}
-              <h2 mx-3>My Porfolio site</h2>
+              <h2 className="my-3 text-center text-sm-start">My Porfolio site</h2>
             {/* </div> */}
           </div>
         </div>
         <div className="row m-0 p-0">
-          <p id="about-me" className="col-8 mx-auto my-5">This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me.</p>
+          <p id="about-me" className="col-10 col-md-8 mx-auto my-5">This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me.</p>
         </div>
       </section>
     )

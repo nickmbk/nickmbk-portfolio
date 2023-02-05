@@ -30,7 +30,7 @@ export default class Contact extends Component {
       <div>
         <div className="row mx-0 mt-5 mb-5 pt-5 text-center">
           <h2>Contact</h2>
-          <p id="contact-p" className="my-3">If you would like to contact me, you can find me on GitHub, LinkedIn, email, and phone down the side.  Or you can fill in the contact from below.</p>
+          <p className="my-3">If you would like to contact me, you can find me on GitHub, LinkedIn, email, and phone down the side.  Or you can fill in the contact from below.</p>
         </div>
         
         
@@ -49,8 +49,8 @@ export default class Contact extends Component {
               >
                 <i className="fab fa-github icons"></i>
                 <div>
-                  <p className="mx-3 my-0">GitHub</p>
-                  <p className="mx-3 my-0">nickmbk</p>
+                  <p className="mx-3 my-0 contact">GitHub</p>
+                  <p className="mx-3 my-0 contact">nickmbk</p>
                 </div>
               </a>
             </li>
@@ -61,8 +61,8 @@ export default class Contact extends Component {
               >
                 <i className="fab fa-linkedin icons"></i>
                 <div>
-                  <p className="mx-3 my-0">LinkedIn</p>
-                  <p className="mx-3 my-0">nickmbk</p>
+                  <p className="mx-3 my-0 contact">LinkedIn</p>
+                  <p className="mx-3 my-0 contact">nickmbk</p>
                 </div>
               </a>
             </li>
@@ -73,8 +73,8 @@ export default class Contact extends Component {
               >
                 <i className="fas fa-envelope icons"></i>
                 <div>
-                  <p className="mx-3 my-0">email</p>
-                  <p className="mx-3 my-0">nick.mbk@hotmail.com</p>
+                  <p className="mx-3 my-0 contact">email</p>
+                  <p className="mx-3 my-0 contact">nick.mbk@hotmail.com</p>
                 </div>
               </a>
             </li>
@@ -85,16 +85,16 @@ export default class Contact extends Component {
               >
                 <i className="fas fa-phone icons"></i>
                 <div>
-                  <p className="mx-3 my-0">Phone</p>
-                  <p className="mx-3 my-0">+447769327480</p>
+                  <p className="mx-3 my-0 contact">Phone</p>
+                  <p className="mx-3 my-0 contact">+447769327480</p>
                 </div>
               </a>
             </li>
             <li className="my-3">
-              <a href="#" className="d-flex flex-row align-items-center">
+              <a href="https://drive.google.com/file/d/1zl7IKF_khVsQdno94YrvIWOGZ9TT1zt_/view?usp=sharing" className="d-flex flex-row align-items-center">
                 <i className="fas fa-file-pdf icons"></i>
                 <div>
-                  <p className="mx-3 my-0">Resume</p>
+                  <p className="mx-3 my-0 contact">Resume</p>
                 </div>
               </a>
             </li>

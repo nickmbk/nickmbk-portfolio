@@ -1,5 +1,6 @@
-h2 {
+#project-h2 {
     color: var(--second-heading-color);
+    font-size: 60px;
 }
 
 section {
@@ -10,12 +11,12 @@ li {
     list-style-type: none;
 }
 
-img {
+img.project-card-image {
     width: 100%;
     aspect-ratio: 1/0.5;
     object-fit: cover;
 }
 
-.project-card:hover {
-    cursor: pointer;
+.project-heading {
+    font-size: 35px;
 }
