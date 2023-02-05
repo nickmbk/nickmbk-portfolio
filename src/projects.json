@@ -4,10 +4,7 @@
     "title": "README Generator",
     "screenshot": "images/screenshots/readme-generator-screenshot.jpg",
     "repo": "https://www.github.com/nickmbk/readme-generator",
-    "tech": [
-      "images/icons/javascript.png",
-      "images/icons/nodejs.png"
-    ],
+    "tech": ["images/icons/javascript.png", "images/icons/nodejs.png"],
     "description": "An app that generates a README.md.  A series of questions are displayed to the user, each answer they give builds up their README file.  Once all questions are asnwered the READM file is generated and is ready to be dropped straight into the users project directory."
   },
   {
