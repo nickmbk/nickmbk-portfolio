@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { useLocation } from "react-router-dom";
 import '../styles/Project.css'
 
@@ -23,7 +23,6 @@ import '../styles/Project.css'
 
 function Project() {
   const props = useLocation().state;
-  console.log(props);
   return (
     <section className="col-12 col-lg-10 mx-auto p-3">
                  <div className="my-5 pt-5">
@@ -38,8 +37,8 @@ function Project() {
                           alt={props.title}
                           />
                       </div>
-                      <div className="d-flex flex-column col-12 col-md-6 col-lg-7">
-                        <div className="col-12 mt-5 mt-md-0 mb-3 pe-md-5">
+                      <div className="d-flex flex-column col-12 col-md-6 col-lg-7 pe-md-5">
+                        <div className="col-12 mt-5 mt-md-0 mb-3">
                           <p>{props.description}</p>
                         </div>
                         <div className="d-flex flex-row justify-content-evenly text-center">
@@ -57,7 +56,7 @@ function Project() {
                         <div className="col-12 d-flex flex-row justify-content-evenly my-5">
                           {props.tech.map((technology) => {
                             return (
-                                <div>
+                                <div key={props.id}>
                                   <img className="tech-icons" src={technology} alt="#" />
                                 </div>
                             );
