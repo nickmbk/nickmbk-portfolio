@@ -8,7 +8,7 @@ import Project from './Project';
 
 export default class ProjectGallery extends Component {
   state = {
-    projects
+    projects,
   };
 //   handleClick = (item) => {
 //     return (
@@ -31,7 +31,13 @@ export default class ProjectGallery extends Component {
             {this.state.projects.map((item) => {
                 return (
                     <div className="col-12 col-md-6"  key={item.id}>
-                        <Link to="/project">
+                        <Link to={{pathname: "project", state: {
+                            title: item.title,
+                            screenshot: item.screenshot,
+                            deployed: item.deployed,
+                            repo: item.repo,
+                            tech: item.tech
+                        }}}>
                             <div className="project-card" >
                                 <div className="row m-0 d-flex flex-column">
                                     <div className="col-12">

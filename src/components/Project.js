@@ -1,15 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { useLocation } from "react-router-dom";
 
-export default class Project extends Component {
-
-    render() {
-    return (
+const Project = () => {
+  const location = useLocation();
+  console.log(location);
+  return (
       <section>
-        <h2>{this.props.title}</h2>
+        <h2>{location.title}</h2>
       </section>
     )
   }
-}
 
 
 // import React, { Component } from 'react'
@@ -63,3 +63,5 @@ export default class Project extends Component {
 //     )
 // }
 // }
+
+export default Project;
