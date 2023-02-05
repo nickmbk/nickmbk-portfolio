@@ -26,7 +26,6 @@ header {
 }
 
 #contacting li a:hover, #contacting li a p.links:hover {
-    /* color: #e04a0f; */
     color: var(--heading-color);
 }
 

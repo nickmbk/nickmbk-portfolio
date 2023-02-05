@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, Route, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import "../styles/ProjectGallery.css";
 import "../styles/variables.css";
 import Projects from "../projects.json";

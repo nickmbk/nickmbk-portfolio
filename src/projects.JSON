@@ -8,7 +8,7 @@
       "images/icons/javascript.png",
       "images/icons/nodejs.png"
     ],
-    "description": "This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. "
+    "description": "An app that generates a README.md.  A series of questions are displayed to the user, each answer they give builds up their README file.  Once all questions are asnwered the READM file is generated and is ready to be dropped straight into the users project directory."
   },
   {
     "id": "2",
@@ -23,7 +23,7 @@
       "images/icons/bootstrap.png",
       "images/icons/jquery.png"
     ],
-    "description": "This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. "
+    "description": "This was a team project where I contributed mostly to the implementation of the design given to me.  I made the design come to life, customising Bootstrap elements to give them our own colour scheme and look.  The Travel List uses Google Maps API and Unsplash API to give users an interactive list that can help them choose where to go on holiday.  Their favourite places can be stored in a list so they can easily access them again later.  The user is shown some images and a map of the destination they have entered.  If they do not know where they want to travel they can click the Random button to randomly choose a destination."
   },
   {
     "id": "3",
@@ -38,7 +38,7 @@
       "images/icons/bootstrap.png",
       "images/icons/jquery.png"
     ],
-    "description": "This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. "
+    "description": "A dashboard that accesses the OpenWeather API to display the current weather for the next five days.  After each search a button is created in history to show the last ten places looked at. The user can click on these buttons to easily return back to a place they have already looked at."
   },
   {
     "id": "4",
@@ -53,7 +53,7 @@
       "images/icons/bootstrap.png",
       "images/icons/jquery.png"
     ],
-    "description": "This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. "
+    "description": "The Work Day Scheduler allows you to enter tasks at times through the working day and save them.  It shows colours depending on the time of day, grey if the time has passed, red for the current hour and green for future hours.  The saved information is kept in local storage so the user doesn't lose what they have saved if they accidently close the browser."
   },
   {
     "id": "5",
@@ -66,7 +66,7 @@
       "images/icons/css3.png",
       "images/icons/javascript.png"
     ],
-    "description": "This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. "
+    "description": "An interactive quiz about coding.  10 questions, 75 seconds.  Every answer you get wrong takes 10 seconds off the timer.  Once you have answered all questions you score gets saved to the Highscores board.  Compete against your coding friends to see who is the best!"
   },
   {
     "id": "6",
@@ -79,6 +79,6 @@
       "images/icons/css3.png",
       "images/icons/javascript.png"
     ],
-    "description": "This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. This is a project. "
+    "description": "Need a new password?  Use this generator to make a new one.  You get options as to how long you want it to be, and what type of characters to include, capital letters, lowercase letters, numbers and special characters.  You can customise your password in many different ways."
   }
 ]

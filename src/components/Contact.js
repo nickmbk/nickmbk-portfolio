@@ -32,12 +32,8 @@ export default class Contact extends Component {
           <h2>Contact</h2>
           <p className="my-3">If you would like to contact me, you can find me on GitHub, LinkedIn, email, and phone down the side.  Or you can fill in the contact from below.</p>
         </div>
-        
-        
-
-
         <div className="row mx-auto">
-          <div className="col-12 col-md-4 col-lg-3 mx-auto">
+          <div className="col-12 col-md-4 col-lg-2 mx-auto">
           <ul
             id="contact-info"
             className="d-flex flex-column flex-wrap justify-content-evenly p-0 m-3"
@@ -101,33 +97,33 @@ export default class Contact extends Component {
           </ul>
           </div>
         
-          <div id="contact-form"  className="col-12 col-md-8 col-lg-7 mx-auto">
+          <div id="contact-form"  className="col-12 col-md-8 col-lg-6 mx-auto">
             <form method="post" action="subscriberform.php">
-            <div class="mb-3">
+            <div className="mb-3">
               <input
                 type="email"
                 name="email"
                 value={this.state.email}
-                class="form-control"
+                className="form-control"
                 id="exampleFormControlInput1"
                 placeholder="Your email address"
                 onChange={this.handleInputChange}
               />
             </div>
-            <div class="mb-3">
+            <div className="mb-3">
               <input
                 type="text"
                 name="subject"
                 value={this.state.subject}
-                class="form-control"
+                className="form-control"
                 id="exampleFormControlInput1"
                 placeholder="Subject"
                 onChange={this.handleInputChange}
               />
             </div>
-            <div class="mb-3">
+            <div className="mb-3">
               <textarea
-                class="form-control"
+                className="form-control"
                 name="message"
                 value={this.state.message}
                 id="exampleFormControlTextarea1"
