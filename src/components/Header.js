@@ -14,9 +14,7 @@ export default class Header extends Component {
             className="navbar navbar-expand-lg bg-body-tertiary bg-light"
             >
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
-                Navbar
-                </a>
+                <h2>Navbar</h2>
                 <button
                 className="navbar-toggler"
                 type="button"
@@ -35,7 +33,7 @@ export default class Header extends Component {
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
                     <NavLink
-                        to="home"
+                        to="/"
                         end
                         className={({ isActive }) =>
                         isActive ? "nav-link active" : "nav-link"

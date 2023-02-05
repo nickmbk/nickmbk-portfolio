@@ -1,19 +1,25 @@
 import React, { Component } from "react";
+import { Link, Route, Routes } from 'react-router-dom';
 import "../styles/ProjectGallery.css";
 import "../styles/variables.css";
 import "../styles/styles.css";
 import projects from "../projects.json";
-import Project from './components/Project';
+import Project from './Project';
 
 export default class ProjectGallery extends Component {
   state = {
-    projects,
-    clickedProject: 0,
+    projects
   };
-
-  handleClick = (item) => {
-    <Project title={item.title} screenshot={item.screenshot} deployed={item.deployed} repo={item.repo} tech={item.tech} description={item.description}/>
-  }
+//   handleClick = (item) => {
+//     return (
+//         <>
+        
+//         <Routes>
+//             <Route path='project' element={<Project />}/>
+//         </Routes>
+//         </>
+//     )
+//   }
 
     render() {
     return (
@@ -24,22 +30,25 @@ export default class ProjectGallery extends Component {
         <div className="d-flex flex-column flex-md-row flex-md-wrap">
             {this.state.projects.map((item) => {
                 return (
-                    <div className="col-12 col-md-6">
-                        <div className="project-card" onClick={this.handleClick({item})}>
-                            <div className="row m-0 d-flex flex-column">
-                                <div className="col-12">
-                                    {item.title}
+                    <div className="col-12 col-md-6"  key={item.id}>
+                        <Link to="/project">
+                            <div className="project-card" >
+                                <div className="row m-0 d-flex flex-column">
+                                    <div className="col-12">
+                                        {item.title}
+                                    </div>
+                                    <div className="col-12" key={item.id}>
+                                        <img
+                                        src={item.screenshot}
+                                        alt={`${item.title} Screenshot`}
+                                        data-id={item.id}
+                                        />
+                                    </div>
+                                    
                                 </div>
-                                <div className="col-12" key={item.id}>
-                                    <img
-                                    src={item.screenshot}
-                                    alt={`${item.title} Screenshot`}
-                                    data-id={item.id}
-                                    />
-                                </div>
-                                
                             </div>
-                        </div>
+                            {/* <Project title={item.title} screenshot={item.screenshot} deployed={item.deployed} repo={item.repo} tech={item.tech} description={item.description} /> */}
+                        </Link>
                     </div>
                 );
                 }
