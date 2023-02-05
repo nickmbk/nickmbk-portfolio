@@ -1,0 +1,14 @@
+#headshot {
+    width: 300px;
+    aspect-ratio: 1/1;
+}
+
+h1 {
+    color: var(--heading-color);
+}
+
+#about-me {
+    color: #ffffff;
+    font-size: 20px;
+}
+

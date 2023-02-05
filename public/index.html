@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+  <?php
+    if($_POST["message"]) {
+    mail("nick.mbk@hotmail.com", subject,
+    $_POST["insert your message here"]. "From: an@email.address");
+    }
+  ?>
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
