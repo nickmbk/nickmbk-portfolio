@@ -19,13 +19,13 @@ header {
     list-style-type: none;
 }
 
-#contacting li a, p.links {
+#contacting li a p.links {
     color: var(--anchor-color);
     font-size: 20px;
     text-decoration: none;
 }
 
-#contacting li a:hover, p.links:hover {
+#contacting li a:hover, #contacting li a p.links:hover {
     /* color: #e04a0f; */
     color: var(--heading-color);
 }
@@ -37,6 +37,7 @@ i {
 #nav a {
     color: var(--heading-color);
     font-size: 20px;
+    font-family: 'Fredoka One', cursive;
 }
 
 #nav a:hover {
