@@ -7,7 +7,7 @@ import "../styles/styles.css";
 export default class Header extends Component {
   render() {
     return (
-      <div className="row m-0">
+      <div id="header" className="row m-0">
         <header>
             <nav
             id="nav"

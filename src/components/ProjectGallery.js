@@ -4,6 +4,7 @@ import "../styles/ProjectGallery.css";
 import "../styles/variables.css";
 import "../styles/styles.css";
 import projects from "../projects.json";
+import readme from '../images/screenshots/readme-generator-screenshot.jpg';
 import Project from './Project';
 
 export default class ProjectGallery extends Component {
