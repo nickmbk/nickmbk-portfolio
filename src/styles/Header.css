@@ -2,10 +2,17 @@ header {
     background-color: var(--bg-color);
 }
 
-#header h1 {
-    /* color: #e04a0f; */
-    color: var(--heading-color);
-    text-indent: 20%;
+#nav-button {
+    background-color: var(--heading-color);
+}
+
+#nav-button:hover {
+    background-color: var(--second-heading-color);
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 #contacting li {
@@ -14,9 +21,41 @@ header {
 
 #contacting li a {
     color: var(--anchor-color);
+    font-size: 20px;
+    text-decoration: none;
 }
 
 #contacting li a:hover {
     /* color: #e04a0f; */
     color: var(--heading-color);
 }
+
+i {
+    font-size: 30px;
+}
+
+#nav a {
+    color: var(--heading-color);
+    font-size: 20px;
+}
+
+#nav a:hover {
+    color: var(--second-heading-color);
+}
+
+
+/* #github {
+    position: relative;
+    z-index: 10;
+}
+
+#github:hover {
+    animation: github-slide 1s;
+}
+
+@keyframes github-slide
+    {
+    0%   { right:0px; top:0px;transform:rotate(0deg)}
+    50%  {right:100%; margin-right:-100px;transform:rotate(360deg)}
+    100% {right:0px; top:0px;transform:rotate(0deg)}
+    } */

@@ -8,14 +8,13 @@ export default class Header extends Component {
   render() {
     return (
       <div id="header" className="row m-0">
-        <header>
+        <header className="m-0 p-2">
             <nav
             id="nav"
-            className="navbar navbar-expand-lg bg-body-tertiary bg-light"
+            className="navbar navbar-expand-lg"
             >
             <div className="container-fluid">
-                <h2>Navbar</h2>
-                <button
+                <button id="nav-button"
                 className="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
@@ -27,11 +26,11 @@ export default class Header extends Component {
                 <span className="navbar-toggler-icon"></span>
                 </button>
                 <div
-                className="collapse navbar-collapse"
+                className="collapse navbar-collapse d-lg-flex justify-content-lg-center"
                 id="navbarSupportedContent"
                 >
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li className="nav-item">
+                <ul className="navbar-nav mb-2 mb-lg-0">
+                    <li className="nav-item mx-lg-5">
                     <NavLink
                         to="/"
                         end
@@ -42,7 +41,7 @@ export default class Header extends Component {
                         Home
                     </NavLink>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item mx-lg-5">
                     <NavLink
                         to="project-gallery"
                         end
@@ -53,7 +52,7 @@ export default class Header extends Component {
                         Project Gallery
                     </NavLink>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item mx-lg-5">
                     <NavLink
                         to="contact"
                         end
@@ -70,41 +69,38 @@ export default class Header extends Component {
             </nav>
             <div>
             <div>
-                <h1 className="my-5">Nick Misselbrook</h1>
-            </div>
-            <div>
                 <ul
                 id="contacting"
-                className="d-flex flex-row flex-md-column justify-content-evenly p-0 m-md-5"
+                className="d-flex flex-row justify-content-evenly p-0 m-3"
                 >
                 <li>
                     <a href="https://www.github.com/nickmbk/">
-                    <i className="fab fa-github"></i>
-                    <p className="d-none d-md-inline-block mx-3">GitHub</p>
+                    <i id="github" className="fab fa-github"></i>
+                    <p className="d-none d-md-inline-block mx-3 my-0">GitHub</p>
                     </a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/nickmbk/">
                     <i className="fab fa-linkedin"></i>
-                    <p className="d-none d-md-inline-block mx-3">LinkedIn</p>
+                    <p className="d-none d-md-inline-block mx-3 my-0">LinkedIn</p>
                     </a>
                 </li>
                 <li>
                     <a href="mailto:nick.mbk@hotmail.com">
                     <i className="fas fa-envelope"></i>
-                    <p className="d-none d-md-inline-block mx-3">email</p>
+                    <p className="d-none d-md-inline-block mx-3 my-0">Email</p>
                     </a>
                 </li>
                 <li>
                     <a href="callto:+447769327480">
                     <i className="fas fa-phone"></i>
-                    <p className="d-none d-md-inline-block mx-3">Phone</p>
+                    <p className="d-none d-md-inline-block mx-3 my-0">Phone</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                     <i className="fas fa-file-pdf"></i>
-                    <p className="d-none d-md-inline-block mx-3">Resume</p>
+                    <p className="d-none d-md-inline-block mx-3 my-0">Resume</p>
                     </a>
                 </li>
                 </ul>

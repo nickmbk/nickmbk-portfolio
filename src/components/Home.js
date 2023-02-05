@@ -5,15 +5,22 @@ import '../styles/Home.css';
 export default class Home extends Component {
   render() {
     return (
-      <section className="d-flex flex-column flex-md-row">
-        <div className="row text-end mx-2">
-          <h1>Nick Misselbrook</h1>
+      <section className="mt-5 pt-5">
+        <div className="row m-0 p-0 d-flex flex-column flex-md-row-reverse align-items-center justify-content-md-center">
+          {/* <div className="m-0 d-flex justify-content-center justify-content-md-end"> */}
+            <img id="headshot" className="rounded-circle col-12 col-med-4 mx-0 p-0" src={headshot} alt="Nick Misselbrook" />
+          {/* </div> */}
+          <div className="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start m-0 p-0">
+            {/* <div className="mx-2"> */}
+              <h1 mx-3>Nick Misselbrook</h1>
+            {/* </div> */}
+            {/* <div className=""> */}
+              <h2 mx-3>My Porfolio site</h2>
+            {/* </div> */}
+          </div>
         </div>
-        <div className="row col-8 col-md-4 m-0 mx-auto">
-          <img id="headshot" className="rounded-circle" src={headshot} alt="Nick Misselbrook" />
-        </div>
-        <div className="row text-start align-self-end">
-          <h2>My Porfolio site</h2>
+        <div className="row m-0 p-0">
+          <p id="about-me" className="col-8 mx-auto my-5">This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me. This is about me.</p>
         </div>
       </section>
     )
