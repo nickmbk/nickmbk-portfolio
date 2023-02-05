@@ -9,6 +9,7 @@ export default class Contact extends Component {
     message: "",
   };
 
+  // code to handle changes when user is typing in the form, will change the values held in state
   handleInputChange = (event) => {
     const value = event.target.value;
     const name = event.target.name;
@@ -38,6 +39,7 @@ export default class Contact extends Component {
           </p>
         </div>
         <div className="row mx-auto">
+          {/* displays logos and links for various ways to contact me */}
           <div className="col-12 col-md-4 col-lg-2 mx-auto">
             <ul
               id="contact-info"
@@ -105,8 +107,14 @@ export default class Contact extends Component {
             </ul>
           </div>
 
+          {/* contact form */}
           <div id="contact-form" className="col-12 col-md-8 col-lg-6 mx-auto">
-            <form name="contact v1" method="post" data-netlify="true" onSubmit="submit">
+            <form
+              name="contact v1"
+              method="post"
+              data-netlify="true"
+              onSubmit="submit"
+            >
               <input type="hidden" name="hidden-input" value="contact v1" />
               <div className="mb-3">
                 <input
@@ -148,7 +156,8 @@ export default class Contact extends Component {
                   onChange={this.handleInputChange}
                 ></textarea>
               </div>
-              <button type="submit"
+              <button
+                type="submit"
                 id="submit-button"
                 className="col-12 col-md-3 mx-auto rounded"
                 // onClick={this.handleFormSubmit}
