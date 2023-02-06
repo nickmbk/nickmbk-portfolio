@@ -108,7 +108,7 @@ export default class Contact extends Component {
                 <input
                   type="text"
                   name="name"
-                  value={this.state.email}
+                  value={this.state.name}
                   className="form-control"
                   placeholder="Your name"
                   onChange={this.handleInputChange}
