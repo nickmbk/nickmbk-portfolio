@@ -12,6 +12,9 @@ export default class ProjectGallery extends Component {
         <div className="text-center mx-0 my-5 pt-5">
           <h2 id="project-h2">Projects</h2>
         </div>
+        <div className="m-2 col-12 text-center">
+          <p>Here are some of the latest projects that I have created.</p>
+        </div>
         <div className="d-flex flex-column flex-md-row flex-md-wrap">
           {Projects &&
             Projects.map((item) => {

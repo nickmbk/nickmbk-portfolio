@@ -98,14 +98,6 @@ export default class Header extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href="callto:+447769327480">
-                    <i className="fas fa-phone"></i>
-                    <p className="d-none d-md-inline-block mx-3 my-0 links">
-                      Phone
-                    </p>
-                  </a>
-                </li>
-                <li>
                   <a href="https://drive.google.com/file/d/1zl7IKF_khVsQdno94YrvIWOGZ9TT1zt_/view?usp=sharing">
                     <i className="fas fa-file-pdf"></i>
                     <p className="d-none d-md-inline-block mx-3 my-0 links">
