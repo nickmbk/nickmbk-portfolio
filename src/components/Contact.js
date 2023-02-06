@@ -100,7 +100,7 @@ export default class Contact extends Component {
             <form
               name="contact"
               method="post"
-              // data-netlify="true"
+              data-netlify="true"
               onSubmit="submit"
             >
               <input type="hidden" name="form-name" value="contact" />
