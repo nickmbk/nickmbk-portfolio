@@ -40,7 +40,7 @@
   
   Click on the Contact page to find the links of how to contact me and also a contact form that you can fill out to also contact me.
 
-  ![Portfolio Screenshot](./assets/portfolio-screenshot.png)
+  ![Portfolio Screenshot](./src/images/portfolio-screenshot.png)
 
   ## Credits
 
