@@ -19,28 +19,6 @@ export default class Contact extends Component {
     });
   };
 
-
-  // handleFormSubmit = (event) => {
-  //   event.preventDefault();
-  //   let contactForm = document.getElementById("contact-form");
-  //   let formData = new FormData(contactForm);
-  //   fetch("/", {
-  //     method: "POST",
-  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-  //     body: new URLSearchParams(formData).toString(),
-  //   })
-  //     .then(() => console.log("Form successfully submitted"))
-  //     .catch((error) => alert(error));
-  // };
-
-  // handleFormSubmit = (event) => {
-  //   event.preventDefault();
-  //   this.setState({
-  //     email: "",
-  //     message: "",
-  //   });
-  // };
-
   render() {
     return (
       <div>
@@ -164,7 +142,6 @@ export default class Contact extends Component {
                 type="submit"
                 id="submit-button"
                 className="col-12 col-md-3 mx-auto rounded"
-                // onClick={this.handleFormSubmit}
               >
                 Submit
               </button>
@@ -175,4 +152,3 @@ export default class Contact extends Component {
     );
   }
 }
-// /*    /index.html   200

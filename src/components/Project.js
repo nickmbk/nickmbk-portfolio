@@ -56,6 +56,3 @@ function Project() {
 }
 
 export default Project;
-
-// https://ui.dev/react-router-pass-props-to-link
-// https://www.youtube.com/watch?v=NWG1Ygt1k1k&t=381s
