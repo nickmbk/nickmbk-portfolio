@@ -19,13 +19,13 @@ export default class Contact extends Component {
     });
   };
 
-  handleFormSubmit = (event) => {
-    event.preventDefault();
-    this.setState({
-      email: "",
-      message: "",
-    });
-  };
+  // handleFormSubmit = (event) => {
+  //   event.preventDefault();
+  //   this.setState({
+  //     email: "",
+  //     message: "",
+  //   });
+  // };
 
   render() {
     return (
@@ -100,7 +100,7 @@ export default class Contact extends Component {
             <form
               name="contact"
               method="post"
-              data-netlify="true"
+              // data-netlify="true"
               onSubmit="submit"
             >
               <input type="hidden" name="form-name" value="contact" />
