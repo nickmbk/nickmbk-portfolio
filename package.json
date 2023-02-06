@@ -1,7 +1,7 @@
 {
   "name": "nickmbk-portfolio",
   "version": "0.1.0",
-  "homepage": "https://nickmbk.github.io/nickmbk-portfolio",
+  "homepage": "https://nickmbk.github.io/nickmbk-portfolio/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
