@@ -20,18 +20,18 @@ export default class Contact extends Component {
   };
 
 
-  handleFormSubmit = (event) => {
-    event.preventDefault();
-    let contactForm = document.getElementById("contact-form");
-    let formData = new FormData(contactForm);
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData).toString(),
-    })
-      .then(() => console.log("Form successfully submitted"))
-      .catch((error) => alert(error));
-  };
+  // handleFormSubmit = (event) => {
+  //   event.preventDefault();
+  //   let contactForm = document.getElementById("contact-form");
+  //   let formData = new FormData(contactForm);
+  //   fetch("/", {
+  //     method: "POST",
+  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  //     body: new URLSearchParams(formData).toString(),
+  //   })
+  //     .then(() => console.log("Form successfully submitted"))
+  //     .catch((error) => alert(error));
+  // };
 
   // handleFormSubmit = (event) => {
   //   event.preventDefault();
@@ -115,6 +115,7 @@ export default class Contact extends Component {
               id="contact-form"
               name="contact"
               method="post"
+              action=""
               data-netlify="true"
               onSubmit="submit"
             >
@@ -163,7 +164,7 @@ export default class Contact extends Component {
                 type="submit"
                 id="submit-button"
                 className="col-12 col-md-3 mx-auto rounded"
-                onClick={this.handleFormSubmit}
+                // onClick={this.handleFormSubmit}
               >
                 Submit
               </button>
