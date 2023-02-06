@@ -103,7 +103,7 @@ export default class Contact extends Component {
               data-netlify="true"
               onSubmit="submit"
             >
-              <input type="hidden" name="hidden-input" value="contact" />
+              <input type="hidden" name="form-name" value="contact" />
               <div className="mb-3">
                 <input
                   type="text"
