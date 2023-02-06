@@ -83,18 +83,6 @@ export default class Contact extends Component {
               </li>
               <li className="my-3">
                 <a
-                  href="callto:+447769327480"
-                  className="d-flex flex-row align-items-center"
-                >
-                  <i className="fas fa-phone icons"></i>
-                  <div>
-                    <p className="mx-3 my-0 contact">Phone</p>
-                    <p className="mx-3 my-0 contact">+447769327480</p>
-                  </div>
-                </a>
-              </li>
-              <li className="my-3">
-                <a
                   href="https://drive.google.com/file/d/1zl7IKF_khVsQdno94YrvIWOGZ9TT1zt_/view?usp=sharing"
                   className="d-flex flex-row align-items-center"
                 >
@@ -108,14 +96,14 @@ export default class Contact extends Component {
           </div>
 
           {/* contact form */}
-          <div id="contact-form" className="col-12 col-md-8 col-lg-6 mx-auto">
+          <div id="contact-form" className="col-12 col-md-8 col-lg-6 mx-auto mb-5">
             <form
-              name="contact v1"
+              name="contact"
               method="post"
               data-netlify="true"
               onSubmit="submit"
             >
-              <input type="hidden" name="hidden-input" value="contact v1" />
+              <input type="hidden" name="hidden-input" value="contact" />
               <div className="mb-3">
                 <input
                   type="text"
