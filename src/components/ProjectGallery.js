@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../styles/ProjectGallery.css";
 import "../styles/variables.css";

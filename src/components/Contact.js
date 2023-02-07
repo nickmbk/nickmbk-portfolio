@@ -88,7 +88,10 @@ export default class Contact extends Component {
           </div>
 
           {/* contact form */}
-          <div id="contact-form" className="col-12 col-md-8 col-lg-6 mx-auto mb-5">
+          <div
+            id="contact-form"
+            className="col-12 col-md-8 col-lg-6 mx-auto mb-5"
+          >
             <form
               id="contact-form"
               name="contact"

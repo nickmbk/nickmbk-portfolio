@@ -6,6 +6,7 @@ function Project() {
   // had to take the props a slightly differnet way as it's harder for Links to send props and this particular way won't be received by classes, so had to use a function for this component
   // had to extract what was sent from the ProjectGallery component from useLocation
   const props = useLocation().state;
+
   return (
     // Displays the project based on the information this component has received from props, which was sent by the ProjectGallery component
     <section className="col-12 col-lg-10 mx-auto p-3">
