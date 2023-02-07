@@ -93,7 +93,7 @@ export default class Contact extends Component {
               id="contact-form"
               name="contact"
               method="post"
-              action="https://formspree.io/f/mayzeylk"
+              action="https://formspree.io/nick.mbk@hotmail.com"
               onSubmit="submit"
             >
               <div className="mb-3">
