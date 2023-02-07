@@ -96,7 +96,7 @@ export default class Contact extends Component {
               id="contact-form"
               name="contact"
               method="post"
-              action="https://formspree.io/nick.mbk@hotmail.com"
+              action="https://formspree.io/f/mayzeylk"
               onSubmit="submit"
             >
               <div className="mb-3">
