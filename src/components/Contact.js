@@ -93,11 +93,9 @@ export default class Contact extends Component {
               id="contact-form"
               name="contact"
               method="post"
-              action=""
-              data-netlify="true"
+              action="https://formspree.io/f/mayzeylk"
               onSubmit="submit"
             >
-              <input type="hidden" name="form-name" value="contact" />
               <div className="mb-3">
                 <input
                   type="text"
@@ -145,6 +143,7 @@ export default class Contact extends Component {
               >
                 Submit
               </button>
+              <p id="my-form-status"></p>
             </form>
           </div>
         </div>
